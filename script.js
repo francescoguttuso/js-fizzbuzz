@@ -1,9 +1,5 @@
-for (let i = 0; i < 101; i++) {
-    if (i === 0) {
-        // Se il numero è 0, scrivo zero
-        console.log(i);
-    }
-    else if (i % 3 === 0 && i % 5 === 0) {
+for (let i = 1; i < 101; i++) {
+    if (i % 3 === 0 && i % 5 === 0) {
         // Al posto del numero, FIZZBUZZ
         console.log("FIZZBUZZ");
     }
